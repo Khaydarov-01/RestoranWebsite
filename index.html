@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeautifulRestoranTemplate</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body> 
+ <!-- ====================  ScrollTo Top button  =====================-->
+
+ <div class="scrollToTopButton">
+    <i class="fas fa-arrow-up"></i>
+ </div>
+
+    <header>
+        <h1 class="logo"><i class="fa fa-utensils me-3"></i>Restoran</h1>
+        <nav>
+            <ul>
+                <li class="active"><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#service">service</a></li>
+                <li><a href="#menu">menu</a></li>
+                <li><a href="#our-team">Our Team</a></li>
+                <li><a href="#contact">contact</a></li>
+                <li class="booking"><a href="#booking">book a table</a></li>
+            </ul>
+        </nav>
+        <div class="bars">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </header>
+<!--      =========================== home section  ============================= -->
+    <main id="home" class="flex-center">
+            <div class="home_text">
+                <h1>Enjey Our<br> Delicious Meal</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi nisi dicta eos ut? Dolorum molestias consequatur optio ipsam praesentium alias.</p>
+                <button type="button"><a href="#booking">Book a table</a></button>
+            </div>
+            <div class="main_img">
+                <img class="main_img1" src="img/hero.png" alt="">
+            </div>
+    </main>
+
+<!-- ================================  Services section  -======================-->
+    <section class="service flex-center" id="service">
+        <div class="services">
+            <div class="number-1">
+                <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                 <h5>Master Chefs</h5>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+        </div>
+        <div class="services">
+            <div class="number-1">
+                <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
+                <h5>Quality Food</h5>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+        </div>
+        <div class="services">
+            <div class="number-1">
+                <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
+                <h5>Online Order</h5>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+        </div>
+        <div class="services">
+            <div class="number-1">
+                <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                <h5>24/7 Service</h5>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            </div>
+        </div>
+    </section>
+
+    <!--  =========================   About section ======================-->
+
+    <section class="about" id="about">
+        <div class="img-container">
+          <div class="images">
+            <div class="img1"><img src="./img/about-1.jpg"></div>
+            <div class="img2"><img src="./img/about-2.jpg"></div>
+          </div>
+          <div class="images2">
+            <div class="img1"><img src="./img/about-3.jpg"></div>
+            <div class="img2"><img src="./img/about-4.jpg"></div>
+          </div>
+        </div>
+        <div class="about-description">
+               <h4>About Us <span></span></h4>
+               <h1>Welcome to <i class="fa fa-3x fa-utensils text-primary mb-4"></i> Restoran</h1>
+               <p class="p1">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.</p>
+               <p class="p2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                <div class="experience">
+                    <div class="about-exp exp-two-section">
+                        <p class="exp-p">15</p>
+                        <p><span>Years of</span><br> Experience</p>
+                    </div>
+                    <div class="popular exp-two-section">
+                        <p class="exp-p">50</p>
+                        <p><span>Popular</span><br> Master Chefs</p>
+                    </div>
+                </div>
+                <div class="button">
+                    <button class="botton1">Read More</button>
+                </div>
+        </div>
+    </section>
+ 
+<!--================================  menu section  =================================-->
+
+  <section class="menu" id="menu">
+       <div class="menu-food">
+           <div class="food-menu">
+             <p>Food Menu</p>
+           </div>
+           <h1 class="h-1">Most Popular Items</h1>
+       </div>
+           <ul>
+               <li>
+                   <a class="filter active" data-filter=".breakfast">
+                    <i class="fa fa-coffee fa-2x text-primary"></i>
+                    <div class="item1">
+                        <small>Popular</small>
+                        <h5>Breakfast</h5>
+                    </div>
+                   </a>
+               </li>
+               <li>
+                <a class="filter" data-filter=".lunch">
+                  <i class="fa fa-hamburger fa-2x text-primary"></i>
+                 <div class="item1">
+                     <small>Special Lunch</small>
+                     <h5>Lunch</h5>
+                 </div>
+                </a>
+            </li>
+            <li>
+                <a class="filter" data-filter=".dinner">
+                  <i class="fa fa-utensils fa-2x text-primary"></i>
+                 <div class="item1">
+                     <small>Lovely</small>
+                     <h5>Dinner</h5>
+                 </div>
+                </a>
+            </li>
+           </ul>
+
+      <div class="list-items braekfast">
+        <div class="menu-list">
+            <div class="menu-1 breakfast">
+             <div class="list-img"><img src="img/menu-1.jpg"></div>
+             <div class="about-food">
+                 <div class="price">
+                    <p>Chicken Burger</p>
+                    <b>$115</b>
+                 </div>
+                 <span></span>
+                 <small>Lorem ipsum dolor sit amet consectetur.</small>
+             </div>
+            </div>
+            <div class="menu-1 breakfast dinner">
+             <div class="list-img"><img src="img/menu-2.jpg"></div>
+             <div class="about-food">
+                 <div class="price">
+                    <p>Chicken Burger</p>
+                    <b>$115</b>
+                 </div>
+                 <span></span>
+                 <small>Lorem ipsum dolor sit amet consectetur.</small>
+             </div>
+            </div>
+            <div class="menu-1 brackfast">
+             <div class="list-img"><img src="img/menu-3.jpg"></div>
+             <div class="about-food">
+                 <div class="price">
+                    <p>Chicken Burger</p>
+                    <b>$115</b>
+                 </div>
+                 <small>Lorem ipsum dolor sit amet consectetur.</small>
+             </div>
+            </div>
+            <div class="menu-1 brackfast dinner">
+             <div class="list-img"><img src="img/menu-4.jpg"></div>
+             <div class="about-food">
+                 <div class="price">
+                    <p>Chicken Burger</p>
+                    <b>$115</b>
+                 </div>
+                 <small>Lorem ipsum dolor sit amet consectetur.</small>
+               </div>
+              </div>
+            </div>
+ 
+            <div class="menu-list">
+             <div class="menu-1 lunch brakfast">
+              <div class="list-img"><img src="img/menu-5.jpg"></div>
+              <div class="about-food">
+                  <div class="price">
+                     <p>Chicken Burger</p>
+                     <b>$115</b>
+                  </div>
+                  <small>Lorem ipsum dolor sit amet consectetur.</small>
+              </div>
+             </div>
+             <div class="menu-1 lunch breakfast dinner">
+              <div class="list-img"><img src="img/menu-6.jpg"></div>
+              <div class="about-food">
+                  <div class="price">
+                     <p>Chicken Burger</p>
+                     <b>$115</b>
+                  </div>
+                  <small>Lorem ipsum dolor sit amet consectetur.</small>
+              </div>
+             </div>
+             <div class="menu-1 lunch breakfast">
+              <div class="list-img"><img src="img/menu-7.jpg"></div>
+              <div class="about-food">
+                  <div class="price">
+                     <p>Chicken Burger</p>
+                     <b>$115</b>
+                  </div>
+                  <small>Lorem ipsum dolor sit amet consectetur.</small>
+              </div>
+             </div>
+             <div class="menu-1 lunch brackfast">
+              <div class="list-img"><img src="img/menu-8.jpg"></div>
+              <div class="about-food">
+                  <div class="price">
+                     <p>Chicken Burger</p>
+                     <b>$115</b>
+                  </div>
+                  <small>Lorem ipsum dolor sit amet consectetur.</small>
+              </div>
+             </div>
+           </div>
+       </div>
+  </section>
+
+  <!-- ===================  Booking Section  ===================== -->
+
+  <section class="booking-section" id="booking">
+      <div class="video">
+        <button type="button" class="play-btn" data-sour="https://www.youtube.com/watch?v=0rojBGuDizA">
+            <i class="fas fa-play"></i>
+        </button>
+      </div>
+      <div class="reservation">
+          <h5>Reservation</h5>
+          <h1 class="h-1">Book a table online</h1>
+          <div class="email">
+              <input type="text" placeholder="Your Name">
+              <input type="email" placeholder="Your Email">
+          </div>
+          <div class="data">
+              <input type="datetime" placeholder="Date & Time">
+              <select>
+                  <option>People 1</option>
+                  <option>People 2</option>
+                  <option>People 3</option>
+              </select> 
+          </div>
+          <textarea placeholder="Special Request"></textarea>
+          <button type="button" class="reserve-button">BOOK NOW</button>
+      </div>
+  </section>
+
+  <!--  ==================== our team ======================-->
+
+  <section class="our-team" id="our-team">
+       <h4>Team Members</h4>
+       <h1 class="h-1">Our Master Chefs</h1>
+       <div class="member-list">
+           <div class="team-member">
+               <div class="team-img">
+                   <img src="img/team-1.jpg">
+               </div>
+               <h5>Full Name</h5>
+               <p>Designation</p>
+               <div class="social-media">
+                   <div class="media-icons"><i class="fab fa-facebook-f"></i></div>
+                   <div class="media-icons"><i class="fab fa-twitter"></i></div>
+                   <div class="media-icons"><i class="fab fa-instagram"></i></div>
+                   <span></span>
+               </div>
+           </div>
+           <div class="team-member">
+            <div class="team-img">
+                <img src="img/team-2.jpg">
+            </div>
+            <h5>Full Name</h5>
+            <p>Designation</p>
+            <div class="social-media">
+                <div class="media-icons"><i class="fab fa-facebook-f"></i></div>
+                <div class="media-icons"><i class="fab fa-twitter"></i></div>
+                <div class="media-icons"><i class="fab fa-instagram"></i></div>
+                <span></span>
+            </div> 
+        </div>
+        <div class="team-member">
+            <div class="team-img">
+                <img src="img/team-3.jpg">
+            </div>
+            <h5>Full Name</h5>
+            <p>Designation</p>
+            <div class="social-media">
+                <div class="media-icons"><i class="fab fa-facebook-f"></i></div>
+                <div class="media-icons"><i class="fab fa-twitter"></i></div>
+                <div class="media-icons"><i class="fab fa-instagram"></i></div>
+                <span></span>
+            </div> 
+        </div>
+        <div class="team-member">
+            <div class="team-img">
+                <img src="img/team-4.jpg">
+            </div>
+            <h5>Full Name</h5>
+            <p>Designation</p>
+            <div class="social-media">
+                <div class="media-icons"><i class="fab fa-facebook-f"></i></div>
+                <div class="media-icons"><i class="fab fa-twitter"></i></div>
+                <div class="media-icons"><i class="fab fa-instagram"></i></div>
+                <span></span>
+            </div>
+        </div>
+       </div>
+  </section>
+
+  <!--  ====================  client section  ====================-->
+
+  <section class="client-section">
+      <h4>Testimonial</h4>
+      <h1 class="h-1">Our Client Say!!!</h1>
+      <div class="client-causel">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                       <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                <div class="swiper-img">
+                    <img src="img/testimonial-1.jpg" alt="">
+                    <div class="parag-1">
+                        <h5>Client Name</h5>
+                        <small>Profession</small>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                <div class="swiper-img">
+                   <img src="img/testimonial-2.jpg" alt="">
+                   <div class="parag-1">
+                   <h5>Client Name</h5>
+                   <small>Profession</small>
+                   </div>
+                 </div>
+              </div>
+              <div class="swiper-slide">
+                <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                <div class="swiper-img">
+                   <img src="img/testimonial-3.jpg" alt="">
+                   <div class="parag-1">
+                   <h5>Client Name</h5>
+                   <small>Profession</small>
+                   </div>
+                 </div>
+              </div>
+              <div class="swiper-slide">
+                <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                <div class="swiper-img">
+                   <img src="img/testimonial-4.jpg" alt="">
+                   <div class="parag-1">
+                   <h5>Client Name</h5>
+                   <small>Profession</small>
+                   </div>
+                 </div>
+              </div>
+              
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+      </div>
+  </section>
+ <!--  ==============================    Footer section  ====================-->
+  <footer id="contact">
+      <div class="footer-contacts">
+          <div class="contacts-about">
+              <h4>Company <span></span></h4>
+              <p class="p-1"><i class="fas fa-angle-right"></i> About Us</p>
+              <p class="p-1"><i class="fas fa-angle-right"></i> Contact Us</p>
+              <p class="p-1"><i class="fas fa-angle-right"></i> Reservation</p>
+              <p class="p-1"><i class="fas fa-angle-right"></i> Privacy Policy</p>
+              <p class="p-1"><i class="fas fa-angle-right"></i> Term & Conditions</p>
+          </div>
+          <div class="contacts-about">
+              <h4>Contact <span></span></h4>
+              <p class="p-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+              <p class="p-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+              <p class="p-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+              <div class="footer-icons">
+                <div class="icons-container"><i class="fab fa-twitter"></i></div>
+                <div class="icons-container"><i class="fab fa-facebook-f"></i></div>
+                <div class="icons-container"><i class="fab fa-youtube"></i></div>
+                <div class="icons-container"><i class="fab fa-linkedin-in"></i></div>
+              </div>
+          </div>
+          <div class="contacts-about">
+              <h4>Opening <span></span></h4>
+              <h5>Monday - Satuday</h5>
+              <p class="p-3">09AM -09PM</p>
+              <h5 class="h-5">Sunday</h5>
+              <p class="p-3">10AM -08PM</p>
+          </div>
+          <div class="contacts-about">
+              <h4>Newsletter <span></span></h4>
+              <p class="p-4">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+              <div class="footer-email">
+                  <input type="email" placeholder="Your Email">
+                  <button type="button">SIGN UP</button>
+              </div>
+          </div>
+      </div>
+      <div class="footer-copy-right">
+        <div class="content-left">&copy; <a href="#">Your Site Name</a>, All Right Reserved. 
+            Designed By <a href="https://htmlcodex.com">HTML Codex</a></div>
+          <div class="contents">
+             <div class="content1">Home</div>
+             <div class="content1">Cookies</div>
+             <div class="content1">Help</div>
+             <div class="content1">FQAs</div>
+          </div>
+      </div>
+      <p></p>
+  </footer>
+ <script src="swiper-bundle.min.js"></script>
+ <script src="script.js"></script>
+</body>
+</html>
